@@ -4,7 +4,8 @@
   - User: Hisu  
   - Password: 0807
 
-![image](https://user-images.githubusercontent.com/52403567/138551368-3154d654-be64-4225-b20d-175553607338.png)
+![image](https://github.com/hisu87/SOF2041/assets/105136523/650c3550-6b7c-47de-9fc3-40b95c0b9bd6)
+
 
 -- You have to run the SQL file to create the database first
 ![image](https://user-images.githubusercontent.com/52403567/138551540-cb0381bf-7156-428a-9e49-46fb823457b1.png)
