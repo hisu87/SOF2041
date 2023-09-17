@@ -13,5 +13,3 @@
 	- Exe4j
 	- Inno Setup
 
--- Demo 
-	- Youtube: https://youtu.be/HTslOCdxv68
