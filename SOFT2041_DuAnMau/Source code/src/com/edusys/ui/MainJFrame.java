@@ -7,6 +7,7 @@ package com.edusys.ui;
 
 import com.edusys.utils.Auth;
 import com.edusys.utils.MsgBox;
+import com.edusys.utils.XImage;
 import com.formdev.flatlaf.FlatLightLaf;
 import java.awt.Desktop;
 import java.io.File;
@@ -34,6 +35,7 @@ public class MainJFrame extends javax.swing.JFrame {
         initComponents();
         startClock();
         setTitle("EduSys");
+        setIconImage(XImage.getAppIcon());
         displayUserInfo();
         setLocationRelativeTo(null);
     }
@@ -100,7 +102,7 @@ public class MainJFrame extends javax.swing.JFrame {
 
     void openGuide() {
         try {
-            Desktop.getDesktop().browse(new URI("https://www.kansastag.gov/advhtml_doc_upload/caplio_500se_software_user_guide.pdf"));
+            Desktop.getDesktop().browse(new URI("github.com/hisu87"));
         } catch (IOException | URISyntaxException ex) {
             Logger.getLogger(MainJFrame.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -109,7 +111,11 @@ public class MainJFrame extends javax.swing.JFrame {
     void openAboutUs() {
         new AboutJDialog(this, rootPaneCheckingEnabled).setVisible(true);
     }
-
+   
+    void openResetPass() {
+        new ResetPassJDialog(this, rootPaneCheckingEnabled). setVisible(true);
+    }
+    
     void openStatistics(int index) {
         if (Auth.isLogin()) {
             if (index == 3 && !Auth.isManager()) {
@@ -155,6 +161,7 @@ public class MainJFrame extends javax.swing.JFrame {
         mniLogout = new javax.swing.JMenuItem();
         jSeparator3 = new javax.swing.JPopupMenu.Separator();
         miniChangepass = new javax.swing.JMenuItem();
+        jMenuItem1 = new javax.swing.JMenuItem();
         jSeparator4 = new javax.swing.JPopupMenu.Separator();
         mniExit = new javax.swing.JMenuItem();
         mnuManaging = new javax.swing.JMenu();
@@ -344,6 +351,14 @@ public class MainJFrame extends javax.swing.JFrame {
             }
         });
         mnuSystem.add(miniChangepass);
+
+        jMenuItem1.setText("Forget Password");
+        jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem1ActionPerformed(evt);
+            }
+        });
+        mnuSystem.add(jMenuItem1);
         mnuSystem.add(jSeparator4);
 
         mniExit.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F10, 0));
@@ -583,6 +598,11 @@ public class MainJFrame extends javax.swing.JFrame {
         openGuide();
     }//GEN-LAST:event_mniGuideActionPerformed
 
+    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
+        // TODO add your handling code here:
+        openResetPass();
+    }//GEN-LAST:event_jMenuItem1ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -635,6 +655,7 @@ public class MainJFrame extends javax.swing.JFrame {
     private javax.swing.JButton btnSubjects;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JToolBar.Separator jSeparator1;
     private javax.swing.JToolBar.Separator jSeparator2;
     private javax.swing.JPopupMenu.Separator jSeparator3;

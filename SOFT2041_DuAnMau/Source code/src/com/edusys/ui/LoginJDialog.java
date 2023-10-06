@@ -31,6 +31,7 @@ public class LoginJDialog extends javax.swing.JDialog {
         setLocationRelativeTo(parent);
     }
 
+    
     void exit() {
         if (MsgBox.confirm(this, "Do you want to exit the app?")) {
             System.exit(0);
@@ -75,6 +76,7 @@ public class LoginJDialog extends javax.swing.JDialog {
         btnExit = new javax.swing.JButton();
         btnSignIn = new javax.swing.JButton();
         chkShowhide = new javax.swing.JCheckBox();
+        jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
@@ -139,7 +141,7 @@ public class LoginJDialog extends javax.swing.JDialog {
         pnlRight.add(lblTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 50, 220, 40));
 
         btnExit.setText("Exit");
-        btnExit.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(140, 231, 140)));
+        btnExit.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(140, 231, 140), 3, true));
         btnExit.setContentAreaFilled(false);
         btnExit.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnExit.setFocusPainted(false);
@@ -156,7 +158,7 @@ public class LoginJDialog extends javax.swing.JDialog {
         pnlRight.add(btnExit, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 320, 100, 30));
 
         btnSignIn.setText("Sign in");
-        btnSignIn.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(140, 231, 140)));
+        btnSignIn.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(140, 231, 140), 3, true));
         btnSignIn.setContentAreaFilled(false);
         btnSignIn.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnSignIn.setFocusPainted(false);
@@ -182,6 +184,16 @@ public class LoginJDialog extends javax.swing.JDialog {
             }
         });
         pnlRight.add(chkShowhide, new org.netbeans.lib.awtextra.AbsoluteConstraints(95, 250, 110, -1));
+
+        jButton1.setBackground(new java.awt.Color(255, 255, 255));
+        jButton1.setText("Reset password ?");
+        jButton1.setBorder(null);
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        pnlRight.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 280, -1, -1));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -258,10 +270,16 @@ public class LoginJDialog extends javax.swing.JDialog {
         }
     }//GEN-LAST:event_chkShowhideActionPerformed
 
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_jButton1ActionPerformed
+
     /**
      * @param args the command line arguments
      */
     public static void main(String args[]) {
+        
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
@@ -308,6 +326,7 @@ public class LoginJDialog extends javax.swing.JDialog {
     private javax.swing.JButton btnExit;
     private javax.swing.JButton btnSignIn;
     private javax.swing.JCheckBox chkShowhide;
+    private javax.swing.JButton jButton1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;

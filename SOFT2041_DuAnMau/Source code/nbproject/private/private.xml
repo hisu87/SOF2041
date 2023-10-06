@@ -4,12 +4,11 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/D:/FPT%20Polytechnic/SOF2041/5.Do/SOF2041/SOFT2041_DuAnMau/Source%20code/src/com/edusys/ui/MainJFrame.java</file>
-            <file>file:/D:/FPT%20Polytechnic/SOF2041/5.Do/SOF2041/SOFT2041_DuAnMau/Source%20code/src/com/edusys/ui/ChangePasswordJDialog.java</file>
-            <file>file:/D:/FPT%20Polytechnic/SOF2041/5.Do/SOF2041/SOFT2041_DuAnMau/Source%20code/src/com/edusys/ui/CourseJDialog.java</file>
-            <file>file:/D:/FPT%20Polytechnic/SOF2041/5.Do/SOF2041/SOFT2041_DuAnMau/Source%20code/src/com/edusys/utils/MsgBox.java</file>
-            <file>file:/D:/FPT%20Polytechnic/SOF2041/5.Do/SOF2041/SOFT2041_DuAnMau/Source%20code/src/com/edusys/utils/XDate.java</file>
-            <file>file:/D:/FPT%20Polytechnic/SOF2041/5.Do/SOF2041/SOFT2041_DuAnMau/Source%20code/src/com/edusys/utils/Auth.java</file>
-            <file>file:/D:/FPT%20Polytechnic/SOF2041/5.Do/SOF2041/SOFT2041_DuAnMau/Source%20code/src/com/edusys/utils/XImage.java</file>
+            <file>file:/D:/FPT%20Polytechnic/SOF2041/5.Do/SOF2041/SOFT2041_DuAnMau/Source%20code/src/com/edusys/ui/StatisticJDialog.java</file>
+            <file>file:/D:/FPT%20Polytechnic/SOF2041/5.Do/SOF2041/SOFT2041_DuAnMau/Source%20code/src/com/edusys/ui/ResetPassJDialog.java</file>
+            <file>file:/D:/FPT%20Polytechnic/SOF2041/5.Do/SOF2041/SOFT2041_DuAnMau/Source%20code/src/com/edusys/ui/EmployeeJDialog.java</file>
+            <file>file:/D:/FPT%20Polytechnic/SOF2041/5.Do/SOF2041/SOFT2041_DuAnMau/Source%20code/src/com/edusys/utils/MailService.java</file>
+            <file>file:/D:/FPT%20Polytechnic/SOF2041/5.Do/SOF2041/SOFT2041_DuAnMau/Source%20code/src/com/edusys/utils/GMailer.java</file>
             <file>file:/D:/FPT%20Polytechnic/SOF2041/5.Do/SOF2041/SOFT2041_DuAnMau/Source%20code/src/com/edusys/ui/LoginJDialog.java</file>
         </group>
     </open-files>

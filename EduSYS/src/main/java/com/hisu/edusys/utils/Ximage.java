@@ -1,9 +1,8 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.edusys.utils;
+package com.hisu.edusys.utils;
 
 import java.awt.Image;
 import java.io.File;
@@ -12,37 +11,36 @@ import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.nio.file.StandardCopyOption;
 import javax.swing.ImageIcon;
+import java.nio.file.StandardCopyOption;
 
 /**
  *
- * @author balis
+ * @author numpa
  */
-public class XImage {
+public class Ximage {
 
     public static Image getAppIcon() {
-        URL url = XImage.class.getResource("/com/edusys/icons/fpt.png");
+        URL url = new Ximage().getClass().getResource("/com/hisu/edusys/icons/fpt.png");
         return new ImageIcon(url).getImage();
     }
 
-    public static void save(File src) {
-        File dir = new File("logos", src.getName());
+    public static void save(File src){
+        File dir = new File("logos",src.getName());
         if (!dir.exists()) {
             dir.mkdirs();
         }
-        try {
+        try{
             Path source = Paths.get(src.getAbsolutePath());
             Path destination = Paths.get(dir.getAbsolutePath());
             Files.copy(source, destination, StandardCopyOption.REPLACE_EXISTING);
-        } catch (IOException e) {
+        }catch(IOException e){
             throw new RuntimeException(e);
         }
-
     }
 
-    public static ImageIcon read(String filename) {
-        File path = new File("logos", filename);
+    public static ImageIcon read(String filename){
+        File path = new File("logos",filename);
         return new ImageIcon(new ImageIcon(path.getAbsolutePath()).getImage().getScaledInstance(180, 180, Image.SCALE_DEFAULT));
     }
 }

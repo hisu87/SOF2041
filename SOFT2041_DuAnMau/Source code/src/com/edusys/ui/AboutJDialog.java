@@ -31,7 +31,7 @@ public class AboutJDialog extends javax.swing.JDialog {
      */
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated
-    // Code">//GEN-BEGIN:initComponents
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         lblLogo = new javax.swing.JLabel();
@@ -51,8 +51,7 @@ public class AboutJDialog extends javax.swing.JDialog {
         txtAbout.setEditable(false);
         txtAbout.setColumns(20);
         txtAbout.setRows(5);
-        txtAbout.setText(
-                "Copyright © 2007 Free Software Foundation, Inc\n\nThis is the System Managing Application owned by Hisu's Software and developed\nby Hisu as a service.\n\nEveryone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.The \nGNU General Public License is a free, copyleft license for software and other kinds of works. you can use, distribute, upload,\nor share this application with no charging fees. Changing and redistribute this application is prohibited.\n\nBest regard, Hisu.\n\n");
+        txtAbout.setText("Copyright © 2023 Free Software Foundation, Inc\n\nThis is the System Managing Application owned by and developed\nby To Hisu as a service.\n\nEveryone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.The \nGNU General Public License is a free, copyleft license for software and other kinds of works. you can use, distribute, upload,\nor share this application with no charging fees. Changing and redistribute this application is prohibited.\n\nBest regard, Hisu.\n\n");
         txtAbout.setAutoscrolls(false);
         txtAbout.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         txtAbout.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -62,35 +61,33 @@ public class AboutJDialog extends javax.swing.JDialog {
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
-                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addGroup(layout.createSequentialGroup()
-                                                .addContainerGap()
-                                                .addComponent(jScrollPane2))
-                                        .addGroup(layout.createSequentialGroup()
-                                                .addGroup(layout
-                                                        .createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                        .addGroup(layout.createSequentialGroup()
-                                                                .addGap(56, 56, 56)
-                                                                .addComponent(lblLogo))
-                                                        .addGroup(layout.createSequentialGroup()
-                                                                .addGap(171, 171, 171)
-                                                                .addComponent(lblCopyright,
-                                                                        javax.swing.GroupLayout.PREFERRED_SIZE, 219,
-                                                                        javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                                .addGap(0, 59, Short.MAX_VALUE)))
-                                .addContainerGap()));
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jScrollPane2))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(56, 56, 56)
+                                .addComponent(lblLogo))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(171, 171, 171)
+                                .addComponent(lblCopyright, javax.swing.GroupLayout.PREFERRED_SIZE, 219, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(0, 59, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
         layout.setVerticalGroup(
-                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(layout.createSequentialGroup()
-                                .addComponent(lblLogo, javax.swing.GroupLayout.PREFERRED_SIZE, 260,
-                                        javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 262, Short.MAX_VALUE)
-                                .addGap(28, 28, 28)
-                                .addComponent(lblCopyright)
-                                .addContainerGap()));
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(lblLogo, javax.swing.GroupLayout.PREFERRED_SIZE, 260, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 262, Short.MAX_VALUE)
+                .addGap(28, 28, 28)
+                .addComponent(lblCopyright)
+                .addContainerGap())
+        );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
