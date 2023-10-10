@@ -1,0 +1,79 @@
+/* Select the body element and set its background color to white */
+body {
+    background: linear-gradient(45deg, #182e4d, #094089, #289dbc);
+    text-align: center;
+    font-weight: 400;
+    text-align: center;
+    font-weight: 400;
+}
+
+/* Select all h1 elements and set their font size to 24px */
+.tieu {
+    font-size: 40px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    /** TEXT GRADIENT */
+    color: #4336fd;
+    background-image: -webkit-linear-gradient(0deg, #4336fd 0%, #03a9f4 33%, #f5f5f5 67%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Select all paragraphs with the class "intro" and set their font color to gray */
+p.intro {}
+
+tr {
+    border: 1px solid #f5f5f5;
+    border-collapse: collapse;
+    padding: 8px;
+    text-decoration: none;
+}
+
+td {
+    border: 1px solid #f5f5f5;
+    border-collapse: collapse;
+    padding: 8px;
+    text-decoration: none;
+    /**TEXTGRADIENT*/
+    color: #ffffff;
+    background-image: -webkit-linear-gradient(0deg, #4336fd 0%, #03a9f4 33%, #f5f5f5 67%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+/* Select all links and set their text color to blue */
+a {
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+li {
+    color: #f5f5f5;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.back {
+    position: absolute;
+    z-index: -1;
+    display: inline-flex;
+    left: 43%;
+    top: 43%;
+    filter: contrast(10);
+    -webkit-filter: contrast(10);
+    margin-left: auto;
+    margin-right: auto;
+}
