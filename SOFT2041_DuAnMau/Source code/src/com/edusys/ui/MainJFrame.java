@@ -352,6 +352,7 @@ public class MainJFrame extends javax.swing.JFrame {
         });
         mnuSystem.add(miniChangepass);
 
+        jMenuItem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/edusys/icons/password (1).png"))); // NOI18N
         jMenuItem1.setText("Forget Password");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
