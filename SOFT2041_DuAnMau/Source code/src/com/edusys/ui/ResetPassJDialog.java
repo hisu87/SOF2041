@@ -7,10 +7,7 @@ package com.edusys.ui;
 import com.edusys.dao.NhanVienDAO;
 import com.edusys.utils.Auth;
 import com.edusys.utils.MsgBox;
-import java.io.File;
 import java.util.Properties;
-import javax.activation.DataHandler;
-import javax.activation.FileDataSource;
 import javax.mail.Message;
 import javax.mail.PasswordAuthentication;
 import javax.mail.Session;
@@ -19,7 +16,6 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeBodyPart;
 import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
-import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 
 /**

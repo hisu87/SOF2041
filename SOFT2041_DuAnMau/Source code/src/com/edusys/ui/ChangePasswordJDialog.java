@@ -7,7 +7,6 @@ package com.edusys.ui;
 
 import com.edusys.dao.NhanVienDAO;
 import com.edusys.utils.Auth;
-import com.edusys.utils.GMailer;
 import com.edusys.utils.MailService;
 import com.edusys.utils.MsgBox;
 import com.edusys.utils.XImage;
