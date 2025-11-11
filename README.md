@@ -43,11 +43,14 @@ Mở project bằng NetBeans IDE và đảm bảo bạn đã cấu hình JDK 16.
 3. Chạy Dự Án
 Build và Run project từ NetBeans.
 
---
+---
 💡 Thông Tin Đăng Nhập (Login Info)
 Sử dụng tài khoản mặc định sau để đăng nhập vào ứng dụng:
+
 Username: Hisu
 
 Password: 0807
+
+![image](https://github.com/hisu87/SOF2041/assets/105136523/650c3550-6b7c-47de-9fc3-40b95c0b9bd6)
 ---
 Chúc bạn học tốt và có trải nghiệm tuyệt vời với dự án này! 🎉
